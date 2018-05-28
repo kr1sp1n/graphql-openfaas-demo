@@ -1,0 +1,12 @@
+{
+  "name": "graphql-openfaas-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:local": "docker stack deploy func --compose-file docker-compose.yml"
+  },
+  "author": "",
+  "license": ""
+}
