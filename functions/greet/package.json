@@ -1,5 +1,5 @@
 {
-  "name": "login",
+  "name": "greet",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",

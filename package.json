@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy:local": "docker stack deploy func --compose-file docker-compose.yml"
+    "deploy:local": "docker stack deploy func --compose-file docker-compose.openfaas.yml",
+    "start": "node ./services/graphql-gateway"
   },
   "author": "",
   "license": ""

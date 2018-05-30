@@ -3,7 +3,7 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  login:
+  greet:
     lang: node
-    handler: ./functions/login
-    image: kr1sp1n/fn-login
+    handler: ./functions/greet
+    image: kr1sp1n/fn-greet
