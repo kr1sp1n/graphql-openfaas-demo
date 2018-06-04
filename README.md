@@ -1,6 +1,6 @@
-# GraphQL-OpenFAAS Demo
+# GraphQL-OpenFaaS Demo
 
-The idea is to run a generic GraphQL server configured with a schema file/URL and proxy any request to a specific function provided by OpenFAAS.
+The idea is to run a generic GraphQL server configured with a schema file/URL and proxy any request to a specific function provided by [OpenFaaS][1].
 
 ## CLI
 
@@ -41,3 +41,7 @@ query {
 ```
 
 Goto http://127.0.0.1:8080/ui/ to see the OpenFAAS dashboard.
+
+
+
+[1]: https://www.openfaas.com/
